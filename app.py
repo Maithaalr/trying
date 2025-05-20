@@ -3,6 +3,8 @@ import pandas as pd
 import plotly.express as px
 from PIL import Image
 
+st.set_page_config(page_title="لوحة معلومات الموارد البشرية", layout="wide")
+
 st.markdown("""
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
     <style>
@@ -11,7 +13,6 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
-
 
 
 # ---------- إعداد الصفحة العامة ---------- #
